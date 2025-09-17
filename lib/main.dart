@@ -5,16 +5,21 @@ import 'package:blocklifts/functions/initialize_hive.dart';
 import 'package:blocklifts/functions/initialize_notifications.dart';
 import 'package:blocklifts/functions/check_first_open.dart';
 import 'package:blocklifts/functions/initialize_service.dart';
+import 'dart:io';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initializeService();
-  final androidInfo = await DeviceInfoPlugin().androidInfo;
-  final androidSdkVersion = androidInfo.version.sdkInt ?? 0;
+
+  int androidSdkVersion = 0;
+  if (Platform.isAndroid) {
+    final androidInfo = await DeviceInfoPlugin().androidInfo;
+    androidSdkVersion = androidInfo.version.sdkInt ?? 0;
+  }
 
   await initializeHive();
   await checkFirstOpen();
   initializeNotifications();
-  
+
   runApp(MyApp(androidSdkVersion: androidSdkVersion));
 }
