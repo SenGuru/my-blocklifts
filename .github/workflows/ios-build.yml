@@ -27,6 +27,13 @@ jobs:
     - name: Clean build
       run: flutter clean
 
+    - name: Configure iOS for unsigned build
+      run: |
+        # Remove code signing requirements
+        sed -i '' 's/DEVELOPMENT_TEAM = .*/DEVELOPMENT_TEAM = "";/' ios/Runner.xcodeproj/project.pbxproj
+        sed -i '' 's/CODE_SIGN_STYLE = Automatic;/CODE_SIGN_STYLE = Manual;/' ios/Runner.xcodeproj/project.pbxproj
+        sed -i '' 's/CODE_SIGN_IDENTITY = .*/CODE_SIGN_IDENTITY = "";/' ios/Runner.xcodeproj/project.pbxproj
+
     - name: Build iOS (without signing)
       run: |
         flutter build ios --release --no-codesign
