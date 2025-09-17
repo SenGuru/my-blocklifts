@@ -113,12 +113,9 @@ class PostWorkoutEditState extends State<PostWorkoutEditPage> {
                                       return Theme(
                                         data: Theme.of(context).copyWith(
                                           colorScheme: ColorScheme.light(
-                                            foregroundColor: Colors
-                                                .red, // header background color
-                                            onPrimary: Colors
-                                                .white, // header text color
-                                            onSurface: globals
-                                                .textColor, // body text color
+                                            primary: Colors.red, // header background color
+                                            onPrimary: Colors.white, // header text color
+                                            onSurface: globals.textColor, // body text color
                                           ),
                                           textButtonTheme: TextButtonThemeData(
                                             style: TextButton.styleFrom(

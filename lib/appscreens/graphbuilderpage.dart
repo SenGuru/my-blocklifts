@@ -308,7 +308,7 @@ class GraphBuilderState extends State<GraphBuilderPage> with AutomaticKeepAliveC
     );
   }
 
-  Widget rightTitleWidgets(double value, TitleMeta meta) {
+  Widget rightTitleWidgets(double value, TitleMeta? meta) {
     TextStyle style = TextStyle(
       color: globals.greyColor,
       fontSize: 9,
@@ -322,11 +322,7 @@ class GraphBuilderState extends State<GraphBuilderPage> with AutomaticKeepAliveC
       text = const Text("");
     }
 
-    return SideTitleWidget(
-      axisSide: meta.axisSide,
-      space: 6,
-      child: text,
-    );
+    return text;
   }
 
   String completionString(int i, int j) {

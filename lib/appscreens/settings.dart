@@ -12,7 +12,7 @@ import 'package:blocklifts/providers/progressprovider.dart';
 import 'package:blocklifts/providers/homeprovider.dart';
 import 'package:blocklifts/providers/listprovider.dart';
 import 'package:provider/provider.dart';
-import 'package:application_icon/application_icon.dart';
+// Removed deprecated application_icon import
 import 'package:blocklifts/globals.dart' as globals;
 
 class Settings extends StatefulWidget {
@@ -596,7 +596,7 @@ class SettingsState extends State<Settings> {
             ),
             child: AboutListTile(
               applicationIcon:
-                  const SizedBox(width: 50, height: 50, child: AppIconImage()),
+                  const SizedBox(width: 50, height: 50, child: Image(image: AssetImage('assets/icon/icon.png'))),
               applicationVersion: "Version 1.0.1",
               aboutBoxChildren: [
                 GestureDetector(
