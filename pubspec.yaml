@@ -42,7 +42,7 @@ dependencies:
   hive_flutter: any
   hive_generator: any
   shared_preferences: any
-  awesome_notifications: ^0.9.3
+  awesome_notifications: ^0.10.0
   audioplayers: any
   fl_chart: any
   paged_vertical_calendar: any
