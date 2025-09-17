@@ -106,9 +106,11 @@ class MyApp extends StatelessWidget {
               theme: ThemeData(
                 // light theme
                 useMaterial3: true,
-                backgroundColor: Colors.white,
+                colorScheme: ColorScheme.light(
+                  surface: Colors.white,
+                ),
                 brightness: Brightness.light,
-                dialogTheme: DialogTheme(
+                dialogTheme: DialogThemeData(
                   backgroundColor: globals.tileColor,
                 ),
                 appBarTheme: AppBarTheme(
@@ -129,9 +131,11 @@ class MyApp extends StatelessWidget {
               ),
               darkTheme: ThemeData(
                 useMaterial3: true,
-                backgroundColor: Colors.black,
+                colorScheme: ColorScheme.dark(
+                  surface: Colors.black,
+                ),
                 brightness: Brightness.dark,
-                dialogTheme: DialogTheme(
+                dialogTheme: DialogThemeData(
                   backgroundColor: globals.tileColor,
                 ),
                 appBarTheme: AppBarTheme(
@@ -146,8 +150,8 @@ class MyApp extends StatelessWidget {
                   color: globals.tileColor,
                 ),
                 textSelectionTheme: TextSelectionThemeData(
-                  selectionHandleColor: Colors.white.withOpacity(.5),
-                  cursorColor: Colors.white.withOpacity(.5),
+                  selectionHandleColor: Colors.white.withValues(alpha: 0.5),
+                  cursorColor: Colors.white.withValues(alpha: 0.5),
                 ),
               ),
               themeMode: boolBox.getAt(0)! ? ThemeMode.dark : ThemeMode.light,
