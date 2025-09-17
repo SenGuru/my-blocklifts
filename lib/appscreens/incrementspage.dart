@@ -73,7 +73,7 @@ class IncrementsPageState extends State<IncrementsPage> {
       body: ListView(children: <Widget>[
         TextButton(
           style: TextButton.styleFrom(
-              primary: Colors.white, textStyle: const TextStyle(fontSize: 16)),
+              foregroundColor: Colors.white, textStyle: const TextStyle(fontSize: 16)),
           onPressed: (() => toggleSwitch(false)),
           child: Container(
             padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
@@ -118,7 +118,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                 builder: (context, value, child) {
                   return TextButton(
                       style: TextButton.styleFrom(
-                          primary: Colors.white,
+                          foregroundColor: Colors.white,
                           textStyle: const TextStyle(fontSize: 16)),
                       child: Container(
                         padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
@@ -160,7 +160,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                 builder: (context, value, child) {
                   return TextButton(
                     style: TextButton.styleFrom(
-                        primary: Colors.white,
+                        foregroundColor: Colors.white,
                         textStyle: const TextStyle(fontSize: 16)),
                     child: Container(
                       padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
@@ -245,7 +245,7 @@ class IncrementsPageState extends State<IncrementsPage> {
             : const SizedBox(),
         TextButton(
           style: TextButton.styleFrom(
-              primary: Colors.white, textStyle: const TextStyle(fontSize: 16)),
+              foregroundColor: Colors.white, textStyle: const TextStyle(fontSize: 16)),
           onPressed: (() => toggleSwitch2(false)),
           child: Container(
             padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
@@ -291,7 +291,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                 builder: (context, value, child) {
                   return TextButton(
                       style: TextButton.styleFrom(
-                          primary: Colors.white,
+                          foregroundColor: Colors.white,
                           textStyle: const TextStyle(fontSize: 16)),
                       child: Container(
                         padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
@@ -325,7 +325,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                 builder: (context, value, child) {
                   return TextButton(
                     style: TextButton.styleFrom(
-                        primary: Colors.white,
+                        foregroundColor: Colors.white,
                         textStyle: const TextStyle(fontSize: 16)),
                     child: Container(
                       padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
@@ -403,7 +403,7 @@ class IncrementsPageState extends State<IncrementsPage> {
             endIndent: 10),
         TextButton(
             style: TextButton.styleFrom(
-                primary: globals.redColor,
+                foregroundColor: globals.redColor,
                 textStyle: const TextStyle(fontSize: 16)),
             child: Container(
               padding: const EdgeInsets.all(10),
@@ -501,7 +501,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                     height: 50,
                     child: OutlinedButton(
                       style: OutlinedButton.styleFrom(
-                        primary: Colors.white,
+                        foregroundColor: Colors.white,
                         backgroundColor: Colors.black,
                         shape: const RoundedRectangleBorder(
                             borderRadius: BorderRadius.all(Radius.circular(5))),
@@ -541,7 +541,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                     height: 50,
                     child: OutlinedButton(
                       style: OutlinedButton.styleFrom(
-                        primary: Colors.white,
+                        foregroundColor: Colors.white,
                         backgroundColor: Colors.black,
                         shape: const RoundedRectangleBorder(
                             borderRadius: BorderRadius.all(Radius.circular(5))),
@@ -573,7 +573,7 @@ class IncrementsPageState extends State<IncrementsPage> {
               Row(mainAxisAlignment: MainAxisAlignment.end, children: <Widget>[
                 TextButton(
                   style: TextButton.styleFrom(
-                    primary: globals.redColor,
+                    foregroundColor: globals.redColor,
                     textStyle: const TextStyle(
                         fontSize: 16, fontWeight: FontWeight.bold),
                     alignment: Alignment.center,
@@ -586,7 +586,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                 const SizedBox(width: 20),
                 TextButton(
                   style: TextButton.styleFrom(
-                    primary: globals.redColor,
+                    foregroundColor: globals.redColor,
                     textStyle: const TextStyle(
                         fontSize: 16, fontWeight: FontWeight.bold),
                     alignment: Alignment.center,
@@ -694,7 +694,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                       children: <Widget>[
                         TextButton(
                           style: TextButton.styleFrom(
-                            primary: globals.redColor,
+                            foregroundColor: globals.redColor,
                             textStyle: const TextStyle(
                                 fontSize: 16, fontWeight: FontWeight.bold),
                             alignment: Alignment.center,
@@ -707,7 +707,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                         const SizedBox(width: 20),
                         TextButton(
                           style: TextButton.styleFrom(
-                            primary: globals.redColor,
+                            foregroundColor: globals.redColor,
                             textStyle: const TextStyle(
                                 fontSize: 16, fontWeight: FontWeight.bold),
                             alignment: Alignment.center,
@@ -804,7 +804,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                       children: <Widget>[
                         TextButton(
                           style: TextButton.styleFrom(
-                            primary: globals.redColor,
+                            foregroundColor: globals.redColor,
                             textStyle: const TextStyle(
                                 fontSize: 16, fontWeight: FontWeight.bold),
                             alignment: Alignment.center,
@@ -817,7 +817,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                         const SizedBox(width: 20),
                         TextButton(
                           style: TextButton.styleFrom(
-                            primary: globals.redColor,
+                            foregroundColor: globals.redColor,
                             textStyle: const TextStyle(
                                 fontSize: 16, fontWeight: FontWeight.bold),
                             alignment: Alignment.center,
@@ -925,7 +925,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                       children: <Widget>[
                         TextButton(
                           style: TextButton.styleFrom(
-                            primary: globals.redColor,
+                            foregroundColor: globals.redColor,
                             textStyle: const TextStyle(
                                 fontSize: 16, fontWeight: FontWeight.bold),
                             alignment: Alignment.center,
@@ -938,7 +938,7 @@ class IncrementsPageState extends State<IncrementsPage> {
                         const SizedBox(width: 20),
                         TextButton(
                           style: TextButton.styleFrom(
-                            primary: globals.redColor,
+                            foregroundColor: globals.redColor,
                             textStyle: const TextStyle(
                                 fontSize: 16, fontWeight: FontWeight.bold),
                             alignment: Alignment.center,

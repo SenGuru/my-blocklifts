@@ -178,7 +178,7 @@ class HomeState extends State<Home> {
           actions: <Widget>[
             TextButton(
               style: TextButton.styleFrom(
-                primary: globals.redColor,
+                foregroundColor: globals.redColor,
                 textStyle:
                     const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 alignment: Alignment.center,
@@ -218,7 +218,7 @@ class HomeState extends State<Home> {
                   fixedSize: boolBox.getAt(5)!
                       ? const Size.fromHeight(75)
                       : const Size.fromHeight(50),
-                  primary: Colors.white,
+                  foregroundColor: Colors.white,
                   backgroundColor: globals.redColor,
                   shape: boolBox.getAt(5)!
                       ? RoundedRectangleBorder(
@@ -294,7 +294,7 @@ class HomeState extends State<Home> {
                                       alignment: Alignment.centerRight,
                                       child: TextButton(
                                         style: TextButton.styleFrom(
-                                          primary: globals.redColor,
+                                          foregroundColor: globals.redColor,
                                           textStyle: const TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),
@@ -310,7 +310,7 @@ class HomeState extends State<Home> {
                                       alignment: Alignment.centerRight,
                                       child: TextButton(
                                         style: TextButton.styleFrom(
-                                          primary: globals.redColor,
+                                          foregroundColor: globals.redColor,
                                           textStyle: const TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),
@@ -334,7 +334,7 @@ class HomeState extends State<Home> {
                                       alignment: Alignment.centerRight,
                                       child: TextButton(
                                         style: TextButton.styleFrom(
-                                          primary: globals.redColor,
+                                          foregroundColor: globals.redColor,
                                           textStyle: const TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),

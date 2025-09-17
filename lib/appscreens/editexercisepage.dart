@@ -137,7 +137,7 @@ class EditExercisePageState extends State<EditExercisePage> {
       body: ListView(children: <Widget>[
         TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             onPressed: () {
               if (exercisesBox.getAt(widget.index)!.weight % 1 == 0) {
@@ -198,7 +198,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                                 height: 50,
                                 child: OutlinedButton(
                                   style: OutlinedButton.styleFrom(
-                                    primary: Colors.white,
+                                    foregroundColor: Colors.white,
                                     backgroundColor: Colors.black,
                                     shape: const RoundedRectangleBorder(
                                         borderRadius: BorderRadius.all(
@@ -244,7 +244,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                                 height: 50,
                                 child: OutlinedButton(
                                   style: OutlinedButton.styleFrom(
-                                    primary: Colors.white,
+                                    foregroundColor: Colors.white,
                                     backgroundColor: Colors.black,
                                     shape: const RoundedRectangleBorder(
                                         borderRadius: BorderRadius.all(
@@ -284,7 +284,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                               children: <Widget>[
                                 TextButton(
                                   style: TextButton.styleFrom(
-                                    primary: globals.redColor,
+                                    foregroundColor: globals.redColor,
                                     textStyle: const TextStyle(
                                         fontSize: 16,
                                         fontWeight: FontWeight.bold),
@@ -298,7 +298,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                                 const SizedBox(width: 20),
                                 TextButton(
                                   style: TextButton.styleFrom(
-                                    primary: globals.redColor,
+                                    foregroundColor: globals.redColor,
                                     textStyle: const TextStyle(
                                         fontSize: 16,
                                         fontWeight: FontWeight.bold),
@@ -391,7 +391,7 @@ class EditExercisePageState extends State<EditExercisePage> {
         // bar weight
         TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             onPressed: () {
               if (exercisesBox.getAt(widget.index)!.barWeight % 1 == 0) {
@@ -452,7 +452,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                                 height: 50,
                                 child: OutlinedButton(
                                   style: OutlinedButton.styleFrom(
-                                    primary: Colors.white,
+                                    foregroundColor: Colors.white,
                                     backgroundColor: Colors.black,
                                     shape: const RoundedRectangleBorder(
                                         borderRadius: BorderRadius.all(
@@ -498,7 +498,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                                 height: 50,
                                 child: OutlinedButton(
                                   style: OutlinedButton.styleFrom(
-                                    primary: Colors.white,
+                                    foregroundColor: Colors.white,
                                     backgroundColor: Colors.black,
                                     shape: const RoundedRectangleBorder(
                                         borderRadius: BorderRadius.all(
@@ -538,7 +538,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                               children: <Widget>[
                                 TextButton(
                                   style: TextButton.styleFrom(
-                                    primary: globals.redColor,
+                                    foregroundColor: globals.redColor,
                                     textStyle: const TextStyle(
                                         fontSize: 16,
                                         fontWeight: FontWeight.bold),
@@ -552,7 +552,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                                 const SizedBox(width: 20),
                                 TextButton(
                                   style: TextButton.styleFrom(
-                                    primary: globals.redColor,
+                                    foregroundColor: globals.redColor,
                                     textStyle: const TextStyle(
                                         fontSize: 16,
                                         fontWeight: FontWeight.bold),
@@ -640,7 +640,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                     ]))),
         TextButton(
           style: TextButton.styleFrom(
-              primary: Colors.white, textStyle: const TextStyle(fontSize: 16)),
+              foregroundColor: Colors.white, textStyle: const TextStyle(fontSize: 16)),
           child: Container(
             padding: const EdgeInsets.all(10),
             child:
@@ -689,7 +689,7 @@ class EditExercisePageState extends State<EditExercisePage> {
         // sets x reps
         TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             onPressed: () {
               setState(() => _myController.text =
@@ -770,7 +770,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                               children: <Widget>[
                                 TextButton(
                                   style: TextButton.styleFrom(
-                                    primary: globals.redColor,
+                                    foregroundColor: globals.redColor,
                                     textStyle: const TextStyle(
                                         fontSize: 16,
                                         fontWeight: FontWeight.bold),
@@ -784,7 +784,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                                 const SizedBox(width: 20),
                                 TextButton(
                                     style: TextButton.styleFrom(
-                                      primary: globals.redColor,
+                                      foregroundColor: globals.redColor,
                                       textStyle: const TextStyle(
                                           fontSize: 16,
                                           fontWeight: FontWeight.bold),
@@ -938,7 +938,7 @@ class EditExercisePageState extends State<EditExercisePage> {
         // plate calculator
         TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             onPressed: () {},
             child: Container(
@@ -972,7 +972,7 @@ class EditExercisePageState extends State<EditExercisePage> {
             endIndent: 10),
         TextButton(
           style: TextButton.styleFrom(
-              primary: Colors.white, textStyle: const TextStyle(fontSize: 16)),
+              foregroundColor: Colors.white, textStyle: const TextStyle(fontSize: 16)),
           child: Container(
             padding: const EdgeInsets.all(10),
             child: Align(
@@ -1023,7 +1023,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                                   children: <Widget>[
                                     TextButton(
                                       style: TextButton.styleFrom(
-                                        primary: globals.redColor,
+                                        foregroundColor: globals.redColor,
                                         textStyle: const TextStyle(
                                             fontSize: 16,
                                             fontWeight: FontWeight.bold),
@@ -1037,7 +1037,7 @@ class EditExercisePageState extends State<EditExercisePage> {
                                     const SizedBox(width: 20),
                                     TextButton(
                                       style: TextButton.styleFrom(
-                                        primary: globals.redColor,
+                                        foregroundColor: globals.redColor,
                                         textStyle: const TextStyle(
                                             fontSize: 16,
                                             fontWeight: FontWeight.bold),

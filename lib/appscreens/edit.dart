@@ -228,7 +228,7 @@ class EditState extends State<Edit> {
               endIndent: 10),
           TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             child: Container(
               padding: const EdgeInsets.only(left: 20),
@@ -269,7 +269,7 @@ class EditState extends State<Edit> {
               width: double.infinity,
               child: TextButton(
                 style: TextButton.styleFrom(
-                    primary: Colors.white,
+                    foregroundColor: Colors.white,
                     textStyle: const TextStyle(fontSize: 16),
                     alignment: Alignment.centerLeft),
                 child: Container(
@@ -331,7 +331,7 @@ class EditState extends State<Edit> {
         child: OutlinedButton(
           style: OutlinedButton.styleFrom(
             fixedSize: const Size.fromHeight(50),
-            primary: Colors.white,
+            foregroundColor: Colors.white,
             backgroundColor: globals.redColor,
             shape: const RoundedRectangleBorder(
                 borderRadius: BorderRadius.all(Radius.circular(50))),
@@ -376,7 +376,7 @@ class EditState extends State<Edit> {
                                   children: <Widget>[
                                     TextButton(
                                       style: TextButton.styleFrom(
-                                        primary: globals.redColor,
+                                        foregroundColor: globals.redColor,
                                         textStyle: const TextStyle(
                                             fontSize: 16,
                                             fontWeight: FontWeight.bold),
@@ -390,7 +390,7 @@ class EditState extends State<Edit> {
                                     const SizedBox(width: 20),
                                     TextButton(
                                         style: TextButton.styleFrom(
-                                          primary: globals.redColor,
+                                          foregroundColor: globals.redColor,
                                           textStyle: const TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),

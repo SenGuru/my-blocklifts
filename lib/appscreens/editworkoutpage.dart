@@ -332,7 +332,7 @@ class EditWorkoutPageState extends State<EditWorkoutPage> {
               width: double.infinity,
               child: TextButton(
                 style: TextButton.styleFrom(
-                    primary: Colors.white,
+                    foregroundColor: Colors.white,
                     textStyle: const TextStyle(fontSize: 16),
                     alignment: Alignment.centerLeft),
                 child: Container(
@@ -386,7 +386,7 @@ class EditWorkoutPageState extends State<EditWorkoutPage> {
                                         children: <Widget>[
                                           TextButton(
                                             style: TextButton.styleFrom(
-                                              primary: globals.redColor,
+                                              foregroundColor: globals.redColor,
                                               textStyle: const TextStyle(
                                                   fontSize: 16,
                                                   fontWeight: FontWeight.bold),
@@ -400,7 +400,7 @@ class EditWorkoutPageState extends State<EditWorkoutPage> {
                                           const SizedBox(width: 20),
                                           TextButton(
                                             style: TextButton.styleFrom(
-                                              primary: globals.redColor,
+                                              foregroundColor: globals.redColor,
                                               textStyle: const TextStyle(
                                                   fontSize: 16,
                                                   fontWeight: FontWeight.bold),
@@ -456,7 +456,7 @@ class EditWorkoutPageState extends State<EditWorkoutPage> {
                 width: double.infinity,
                 child: TextButton(
                   style: TextButton.styleFrom(
-                      primary: Colors.white,
+                      foregroundColor: Colors.white,
                       textStyle: const TextStyle(fontSize: 16),
                       alignment: Alignment.centerLeft),
                   child: Container(
@@ -524,7 +524,7 @@ class EditWorkoutPageState extends State<EditWorkoutPage> {
         child: OutlinedButton(
           style: OutlinedButton.styleFrom(
             fixedSize: const Size.fromHeight(50),
-            primary: Colors.white,
+            foregroundColor: Colors.white,
             backgroundColor: globals.redColor,
             shape: const RoundedRectangleBorder(
                 borderRadius: BorderRadius.all(Radius.circular(50))),
@@ -591,7 +591,7 @@ class EditWorkoutPageState extends State<EditWorkoutPage> {
                             children: <Widget>[
                               TextButton(
                                 style: TextButton.styleFrom(
-                                  primary: globals.redColor,
+                                  foregroundColor: globals.redColor,
                                   textStyle: const TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.bold),
@@ -605,7 +605,7 @@ class EditWorkoutPageState extends State<EditWorkoutPage> {
                               const SizedBox(width: 20),
                               TextButton(
                                 style: TextButton.styleFrom(
-                                  primary: globals.redColor,
+                                  foregroundColor: globals.redColor,
                                   textStyle: const TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.bold),
@@ -680,7 +680,7 @@ class EditWorkoutPageState extends State<EditWorkoutPage> {
                                                               TextButton(
                                                                 style: TextButton
                                                                     .styleFrom(
-                                                                  primary: globals
+                                                                  foregroundColor: globals
                                                                       .redColor,
                                                                   textStyle: const TextStyle(
                                                                       fontSize:
@@ -705,7 +705,7 @@ class EditWorkoutPageState extends State<EditWorkoutPage> {
                                                               TextButton(
                                                                   style: TextButton
                                                                       .styleFrom(
-                                                                    primary: globals
+                                                                    foregroundColor: globals
                                                                         .redColor,
                                                                     textStyle: const TextStyle(
                                                                         fontSize:

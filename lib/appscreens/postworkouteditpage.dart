@@ -113,7 +113,7 @@ class PostWorkoutEditState extends State<PostWorkoutEditPage> {
                                       return Theme(
                                         data: Theme.of(context).copyWith(
                                           colorScheme: ColorScheme.light(
-                                            primary: Colors
+                                            foregroundColor: Colors
                                                 .red, // header background color
                                             onPrimary: Colors
                                                 .white, // header text color
@@ -122,7 +122,7 @@ class PostWorkoutEditState extends State<PostWorkoutEditPage> {
                                           ),
                                           textButtonTheme: TextButtonThemeData(
                                             style: TextButton.styleFrom(
-                                              primary: Colors
+                                              foregroundColor: Colors
                                                   .red, // button text color
                                             ),
                                           ),
@@ -146,7 +146,7 @@ class PostWorkoutEditState extends State<PostWorkoutEditPage> {
           actions: <Widget>[
             TextButton(
               style: TextButton.styleFrom(
-                primary: globals.redColor,
+                foregroundColor: globals.redColor,
                 textStyle:
                     const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 alignment: Alignment.center,
@@ -571,7 +571,7 @@ class PostWorkoutEditState extends State<PostWorkoutEditPage> {
                                                                   TextButton(
                                                                     style: TextButton
                                                                         .styleFrom(
-                                                                      primary:
+                                                                      foregroundColor:
                                                                           globals
                                                                               .redColor,
                                                                       textStyle: const TextStyle(
@@ -598,7 +598,7 @@ class PostWorkoutEditState extends State<PostWorkoutEditPage> {
                                                                   TextButton(
                                                                     style: TextButton
                                                                         .styleFrom(
-                                                                      primary:
+                                                                      foregroundColor:
                                                                           globals
                                                                               .redColor,
                                                                       textStyle: const TextStyle(
@@ -669,7 +669,7 @@ class PostWorkoutEditState extends State<PostWorkoutEditPage> {
                                           PostWorkoutNotesPage(widget.index)));
                                 },
                                 style: TextButton.styleFrom(
-                                  primary: globals.redColor,
+                                  foregroundColor: globals.redColor,
                                   textStyle: const TextStyle(
                                       fontWeight: FontWeight.bold),
                                   alignment: Alignment.center,
@@ -736,7 +736,7 @@ class PostWorkoutEditState extends State<PostWorkoutEditPage> {
                                   );
                                 },
                                 style: TextButton.styleFrom(
-                                  primary: globals.redColor,
+                                  foregroundColor: globals.redColor,
                                   textStyle: const TextStyle(
                                       fontWeight: FontWeight.bold),
                                   alignment: Alignment.center,
@@ -907,7 +907,7 @@ class PostWorkoutEditState extends State<PostWorkoutEditPage> {
                     Widget>[
                   TextButton(
                     style: TextButton.styleFrom(
-                      primary: globals.redColor,
+                      foregroundColor: globals.redColor,
                       textStyle: const TextStyle(
                           fontSize: 16, fontWeight: FontWeight.bold),
                       alignment: Alignment.center,
@@ -920,7 +920,7 @@ class PostWorkoutEditState extends State<PostWorkoutEditPage> {
                   const SizedBox(width: 20),
                   TextButton(
                       style: TextButton.styleFrom(
-                        primary: globals.redColor,
+                        foregroundColor: globals.redColor,
                         textStyle: const TextStyle(
                             fontSize: 16, fontWeight: FontWeight.bold),
                         alignment: Alignment.center,

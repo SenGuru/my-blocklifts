@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:intl/intl.dart';
 import 'dart:async';
-import 'package:wakelock/wakelock.dart';
+import 'package:wakelock_plus/wakelock_plus.dart';
 import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:blocklifts/functions/increment_circles.dart';
@@ -162,7 +162,7 @@ class WorkoutPageState extends State<WorkoutPage> {
     if (boolBox.getAt(5)!) {
       counterBox.putAt(0, idx);
     } else if (!boolBox.getAt(5)!) {
-      Wakelock.disable();
+      WakelockPlus.disable();
       counterBox.putAt(0, counterBox.getAt(1)!);
       boolBox.putAt(9, false);
       globals.workoutDuration = const Duration(seconds: 0);
@@ -195,7 +195,7 @@ class WorkoutPageState extends State<WorkoutPage> {
 
   @override
   Widget build(BuildContext context) {
-    boolBox.getAt(6)! ? Wakelock.enable() : Wakelock.disable();
+    boolBox.getAt(6)! ? WakelockPlus.enable() : WakelockPlus.disable();
     Workout? selectVal = workoutsBox.getAt(0);
     return WillPopScope(
         onWillPop: _onBackPressed,
@@ -310,7 +310,7 @@ class WorkoutPageState extends State<WorkoutPage> {
               actions: <Widget>[
                 TextButton(
                   style: TextButton.styleFrom(
-                    primary: globals.redColor,
+                    foregroundColor: globals.redColor,
                     textStyle: const TextStyle(
                         fontSize: 16, fontWeight: FontWeight.bold),
                     alignment: Alignment.center,
@@ -844,7 +844,7 @@ class WorkoutPageState extends State<WorkoutPage> {
                                                                       TextButton(
                                                                         style: TextButton
                                                                             .styleFrom(
-                                                                          primary:
+                                                                          foregroundColor:
                                                                               globals.redColor,
                                                                           textStyle: const TextStyle(
                                                                               fontSize: 16,
@@ -866,7 +866,7 @@ class WorkoutPageState extends State<WorkoutPage> {
                                                                       TextButton(
                                                                         style: TextButton
                                                                             .styleFrom(
-                                                                          primary:
+                                                                          foregroundColor:
                                                                               globals.redColor,
                                                                           textStyle: const TextStyle(
                                                                               fontSize: 16,
@@ -989,7 +989,7 @@ class WorkoutPageState extends State<WorkoutPage> {
                                                     const WorkoutNotesPage()));
                                       },
                                       style: TextButton.styleFrom(
-                                        primary: globals.redColor,
+                                        foregroundColor: globals.redColor,
                                         textStyle: const TextStyle(
                                             fontWeight: FontWeight.bold),
                                         alignment: Alignment.center,
@@ -1012,7 +1012,7 @@ class WorkoutPageState extends State<WorkoutPage> {
                                         });
                                       },
                                       style: TextButton.styleFrom(
-                                        primary: globals.redColor,
+                                        foregroundColor: globals.redColor,
                                         textStyle: const TextStyle(
                                             fontWeight: FontWeight.bold),
                                         alignment: Alignment.center,
@@ -1040,7 +1040,7 @@ class WorkoutPageState extends State<WorkoutPage> {
     globals.timer?.cancel();
     globals.workoutTimer?.cancel();
     boolBox.putAt(5, false);
-    Wakelock.disable();
+    WakelockPlus.disable();
 
     String name = workoutsBox.getAt(widget.index)!.name;
     DateTime now = DateTime.now();

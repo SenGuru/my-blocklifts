@@ -52,7 +52,7 @@ class ProgressState extends State<Progress> {
                   if (exercisesBox.getAt(i)!.bookmarked)
                     TextButton(
                         style: TextButton.styleFrom(
-                            primary: Colors.white,
+                            foregroundColor: Colors.white,
                             textStyle: const TextStyle(fontSize: 16)),
                         child: Container(
                           padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
@@ -105,7 +105,7 @@ class ProgressState extends State<Progress> {
                 // body weight
                 TextButton(
                   style: TextButton.styleFrom(
-                      primary: Colors.white,
+                      foregroundColor: Colors.white,
                       textStyle: const TextStyle(fontSize: 16)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
@@ -168,7 +168,7 @@ class ProgressState extends State<Progress> {
                   if (!exercisesBox.getAt(i)!.bookmarked)
                     TextButton(
                         style: TextButton.styleFrom(
-                            primary: Colors.white,
+                            foregroundColor: Colors.white,
                             textStyle: const TextStyle(fontSize: 16)),
                         child: Container(
                           padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),

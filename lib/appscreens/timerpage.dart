@@ -105,7 +105,7 @@ class TimerState extends State<TimerPage> {
           return ListView(children: <Widget>[
             TextButton(
               style: TextButton.styleFrom(
-                  primary: Colors.white,
+                  foregroundColor: Colors.white,
                   textStyle: const TextStyle(fontSize: 16)),
               onPressed: (() => timerProvider.toggleTimerSwitch(false)),
               child: Container(
@@ -151,7 +151,7 @@ class TimerState extends State<TimerPage> {
             boolBox.getAt(1)!
                 ? TextButton(
                     style: TextButton.styleFrom(
-                        primary: Colors.white,
+                        foregroundColor: Colors.white,
                         textStyle: const TextStyle(fontSize: 16)),
                     onPressed: (() => toggleSwitch2(false)),
                     child: Container(
@@ -200,7 +200,7 @@ class TimerState extends State<TimerPage> {
             boolBox.getAt(1)!
                 ? TextButton(
                     style: TextButton.styleFrom(
-                        primary: Colors.white,
+                        foregroundColor: Colors.white,
                         textStyle: const TextStyle(fontSize: 16)),
                     onPressed: (() => toggleSwitch3(false)),
                     child: Container(
@@ -263,7 +263,7 @@ class TimerState extends State<TimerPage> {
             boolBox.getAt(1)!
                 ? TextButton(
                     style: TextButton.styleFrom(
-                        primary: Colors.white,
+                        foregroundColor: Colors.white,
                         textStyle: const TextStyle(fontSize: 16)),
                     child: Container(
                       padding: const EdgeInsets.all(10),
@@ -296,7 +296,7 @@ class TimerState extends State<TimerPage> {
             boolBox.getAt(1)!
                 ? TextButton(
                     style: TextButton.styleFrom(
-                        primary: Colors.white,
+                        foregroundColor: Colors.white,
                         textStyle: const TextStyle(fontSize: 16)),
                     child: Container(
                       padding: const EdgeInsets.all(10),

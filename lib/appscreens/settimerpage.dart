@@ -143,7 +143,7 @@ class SetTimerState extends State<SetTimerPage> {
           child: OutlinedButton(
         style: OutlinedButton.styleFrom(
           fixedSize: const Size.fromHeight(50),
-          primary: Colors.white,
+          foregroundColor: Colors.white,
           backgroundColor: globals.redColor,
           shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.all(Radius.circular(50))),
@@ -264,7 +264,7 @@ class SetTimerState extends State<SetTimerPage> {
                                 children: <Widget>[
                                   TextButton(
                                     style: TextButton.styleFrom(
-                                      primary: globals.redColor,
+                                      foregroundColor: globals.redColor,
                                       textStyle: const TextStyle(
                                           fontSize: 16,
                                           fontWeight: FontWeight.bold),
@@ -278,7 +278,7 @@ class SetTimerState extends State<SetTimerPage> {
                                   const SizedBox(width: 20),
                                   TextButton(
                                     style: TextButton.styleFrom(
-                                      primary: globals.redColor,
+                                      foregroundColor: globals.redColor,
                                       textStyle: const TextStyle(
                                           fontSize: 16,
                                           fontWeight: FontWeight.bold),

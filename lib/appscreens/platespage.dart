@@ -45,7 +45,7 @@ class PlatesState extends State<PlatesPage> {
                 for (int i = 0; i < platesBox.length; i++)
                   TextButton(
                       style: TextButton.styleFrom(
-                          primary: Colors.white,
+                          foregroundColor: Colors.white,
                           textStyle: const TextStyle(fontSize: 16)),
                       child: Container(
                         padding: const EdgeInsets.all(10),
@@ -87,7 +87,7 @@ class PlatesState extends State<PlatesPage> {
             child: OutlinedButton(
               style: OutlinedButton.styleFrom(
                 fixedSize: const Size.fromHeight(50),
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 backgroundColor: globals.redColor,
                 shape: const RoundedRectangleBorder(
                     borderRadius: BorderRadius.all(Radius.circular(50))),
@@ -147,7 +147,7 @@ class PlatesState extends State<PlatesPage> {
                           alignment: Alignment.centerLeft,
                           child: TextButton(
                               style: TextButton.styleFrom(
-                                primary: globals.redColor,
+                                foregroundColor: globals.redColor,
                                 textStyle: const TextStyle(
                                     fontSize: 16, fontWeight: FontWeight.bold),
                                 alignment: Alignment.center,
@@ -166,7 +166,7 @@ class PlatesState extends State<PlatesPage> {
                           alignment: Alignment.centerRight,
                           child: TextButton(
                               style: TextButton.styleFrom(
-                                primary: globals.redColor,
+                                foregroundColor: globals.redColor,
                                 textStyle: const TextStyle(
                                     fontSize: 16, fontWeight: FontWeight.bold),
                                 alignment: Alignment.center,
@@ -182,7 +182,7 @@ class PlatesState extends State<PlatesPage> {
                           alignment: Alignment.centerRight,
                           child: TextButton(
                               style: TextButton.styleFrom(
-                                primary: globals.redColor,
+                                foregroundColor: globals.redColor,
                                 textStyle: const TextStyle(
                                     fontSize: 16, fontWeight: FontWeight.bold),
                                 alignment: Alignment.center,
@@ -252,7 +252,7 @@ class PlatesState extends State<PlatesPage> {
                     height: 50,
                     child: OutlinedButton(
                       style: OutlinedButton.styleFrom(
-                        primary: Colors.white,
+                        foregroundColor: Colors.white,
                         backgroundColor: Colors.black,
                         shape: const RoundedRectangleBorder(
                             borderRadius: BorderRadius.all(Radius.circular(5))),
@@ -292,7 +292,7 @@ class PlatesState extends State<PlatesPage> {
                     height: 50,
                     child: OutlinedButton(
                       style: OutlinedButton.styleFrom(
-                        primary: Colors.white,
+                        foregroundColor: Colors.white,
                         backgroundColor: Colors.black,
                         shape: const RoundedRectangleBorder(
                             borderRadius: BorderRadius.all(Radius.circular(5))),
@@ -324,7 +324,7 @@ class PlatesState extends State<PlatesPage> {
               Row(mainAxisAlignment: MainAxisAlignment.end, children: <Widget>[
                 TextButton(
                   style: TextButton.styleFrom(
-                    primary: globals.redColor,
+                    foregroundColor: globals.redColor,
                     textStyle: const TextStyle(
                         fontSize: 16, fontWeight: FontWeight.bold),
                     alignment: Alignment.center,
@@ -337,7 +337,7 @@ class PlatesState extends State<PlatesPage> {
                 const SizedBox(width: 20),
                 TextButton(
                   style: TextButton.styleFrom(
-                    primary: globals.redColor,
+                    foregroundColor: globals.redColor,
                     textStyle: const TextStyle(
                         fontSize: 16, fontWeight: FontWeight.bold),
                     alignment: Alignment.center,

@@ -66,7 +66,7 @@ class SettingsState extends State<Settings> {
         body: ListView(children: <Widget>[
           TextButton(
               style: TextButton.styleFrom(
-                  primary: Colors.white,
+                  foregroundColor: Colors.white,
                   textStyle: const TextStyle(fontSize: 16)),
               onPressed: (() {
                 settingsProvider.toggleThemeSwitch();
@@ -108,7 +108,7 @@ class SettingsState extends State<Settings> {
               )),
           TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             child: Container(
               padding: const EdgeInsets.all(10),
@@ -144,7 +144,7 @@ class SettingsState extends State<Settings> {
           ),
           TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             child: Container(
               padding: const EdgeInsets.all(10),
@@ -176,7 +176,7 @@ class SettingsState extends State<Settings> {
           ),
           TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             child: Container(
               padding: const EdgeInsets.all(10),
@@ -209,7 +209,7 @@ class SettingsState extends State<Settings> {
           ),
           TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             child: Container(
               padding: const EdgeInsets.all(10),
@@ -286,7 +286,7 @@ class SettingsState extends State<Settings> {
                                     children: <Widget>[
                                       TextButton(
                                         style: TextButton.styleFrom(
-                                          primary: globals.redColor,
+                                          foregroundColor: globals.redColor,
                                           textStyle: const TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),
@@ -300,7 +300,7 @@ class SettingsState extends State<Settings> {
                                       const SizedBox(width: 20),
                                       TextButton(
                                         style: TextButton.styleFrom(
-                                          primary: globals.redColor,
+                                          foregroundColor: globals.redColor,
                                           textStyle: const TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),
@@ -327,7 +327,7 @@ class SettingsState extends State<Settings> {
           ),
           TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             child: Container(
               padding: const EdgeInsets.all(10),
@@ -398,7 +398,7 @@ class SettingsState extends State<Settings> {
                                     children: <Widget>[
                                       TextButton(
                                         style: TextButton.styleFrom(
-                                          primary: globals.redColor,
+                                          foregroundColor: globals.redColor,
                                           textStyle: const TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),
@@ -412,7 +412,7 @@ class SettingsState extends State<Settings> {
                                       const SizedBox(width: 20),
                                       TextButton(
                                         style: TextButton.styleFrom(
-                                          primary: globals.redColor,
+                                          foregroundColor: globals.redColor,
                                           textStyle: const TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),
@@ -439,7 +439,7 @@ class SettingsState extends State<Settings> {
           ),
           TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             child: Container(
               padding: const EdgeInsets.all(10),
@@ -509,7 +509,7 @@ class SettingsState extends State<Settings> {
                                 children: <Widget>[
                                   TextButton(
                                     style: TextButton.styleFrom(
-                                      primary: globals.redColor,
+                                      foregroundColor: globals.redColor,
                                       textStyle: const TextStyle(
                                           fontSize: 16,
                                           fontWeight: FontWeight.bold),
@@ -523,7 +523,7 @@ class SettingsState extends State<Settings> {
                                   const SizedBox(width: 20),
                                   TextButton(
                                     style: TextButton.styleFrom(
-                                      primary: globals.redColor,
+                                      foregroundColor: globals.redColor,
                                       textStyle: const TextStyle(
                                           fontSize: 16,
                                           fontWeight: FontWeight.bold),
@@ -550,7 +550,7 @@ class SettingsState extends State<Settings> {
           ),
           TextButton(
             style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
                 textStyle: const TextStyle(fontSize: 16)),
             onPressed: (() => settingsProvider.toggleAwakeSwitch()),
             child: Container(
@@ -640,7 +640,7 @@ class SettingsState extends State<Settings> {
               endIndent: 10),
           TextButton(
               style: TextButton.styleFrom(
-                  primary: globals.redColor,
+                  foregroundColor: globals.redColor,
                   textStyle: const TextStyle(fontSize: 16)),
               child: Container(
                 padding: const EdgeInsets.all(10),
@@ -755,7 +755,7 @@ class SettingsState extends State<Settings> {
                       Widget>[
                     TextButton(
                         style: TextButton.styleFrom(
-                          primary: globals.redColor,
+                          foregroundColor: globals.redColor,
                           textStyle: const TextStyle(
                               fontSize: 16, fontWeight: FontWeight.bold),
                           alignment: Alignment.center,
@@ -767,7 +767,7 @@ class SettingsState extends State<Settings> {
                     const SizedBox(width: 20),
                     TextButton(
                         style: TextButton.styleFrom(
-                          primary: globals.redColor,
+                          foregroundColor: globals.redColor,
                           textStyle: const TextStyle(
                               fontSize: 16, fontWeight: FontWeight.bold),
                           alignment: Alignment.center,
